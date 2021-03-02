@@ -7,14 +7,14 @@ project=legacyhsc
 # For a power-user / testing. Use local checkouts of the code even though it's
 # in the Docker container.
 export LEGACYPIPE_CODE_DIR=/global/homes/i/ioannis/repos/git/legacypipe
-export LEGACYHALOS_CODE_DIR=/global/homes/i/ioannis/repos/git/legacyhalos
+export LEGACYHALOS_CODE_DIR=/global/homes/c/cpbradsh/legacyhalos
 export PYTHONPATH=$LEGACYHALOS_CODE_DIR/py:$LEGACYPIPE_CODE_DIR/py:$PYTHONPATH
 export PATH=$LEGACYHALOS_CODE_DIR/bin/$project:$PATH
 #############################
 
 # Specifiy the location of the input and output data.
 export LEGACYHALOS_DIR=/global/cfs/cdirs/desi/users/ioannis/legacyhalos/$project
-export LEGACYHALOS_DATA_DIR=/global/cscratch1/sd/ioannis/$project-data
+export LEGACYHALOS_DATA_DIR=$SCRATCH/$project-data
 export LEGACYHALOS_HTML_DIR=/global/cfs/cdirs/cosmo/www/temp/ioannis/$project-html
 
 # Pipeline variables---only change these if you know what you're doing!
