@@ -1,6 +1,8 @@
 Stellar Mass Content of Dark Matter Halos in Legacy Surveys Imaging
 ===================================================================
 
+I have some notes about why I made some changes. They are [here](https://github.com/Christopher-Bradshaw/DECALS_selection) but this is a private repo. Let me know if you want them.
+
 The `DESI Legacy Imaging Surveys`_ have delivered deep *grz* optical imaging and
 unWISE *W1* and *W2* mid-infrared imaging of over 20,000 sq. deg of the
 extragalactic sky.
